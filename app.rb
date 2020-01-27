@@ -5,7 +5,7 @@ module FormsLab
 
 
     get '/' do
-      
+
       erb :root
     end
 
@@ -14,7 +14,7 @@ module FormsLab
       erb :new
     end
 
-    post '/pirates' do
+    post '/pirates/show' do
 
       erb :show
     end
